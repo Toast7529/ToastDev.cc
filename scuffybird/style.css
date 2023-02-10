@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@font-face {
+    font-family: 'Quinquefive';
+    src: url('./incl/Quinquefive-K7qep.ttf')  format('truetype');
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Quinquefive', monospace;
+    background: linear-gradient(to bottom, black 80%, #d49f1b 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2vw;
+}
+
+h1 {
+    color: #fbf700;
+    text-shadow: 0 0 18px rgba(255, 251, 0, 0.8);
+    font-size: min(8vw, 40px);
+    margin: 2vw 0 0 0;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    color: #c0eb00;
+    text-shadow: 0 0 12px rgba(255, 251, 0, 0.8);
+    font-size: min(5vw, 20px);
+    margin: 0.5vw 0 0 0;
+}
+
+a.toastdev {
+    color: #eafb00;
+}
+
+p {
+    color: #fdfdfb;
+    text-shadow: 0 0 12px #A1A1A1;
+    font-size: min(3vw, 16px);
+    margin: 3vw 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #13fc00;
+}
+
+img.game-preview {
+    width: min(60%, 600px);
+    border: min(1vw, 5px) solid rgb(254, 255, 221);
+    margin: 0 0 0 0;
+}
+
+img.google-play-btn {
+    width: min(50%, 200px);
+    margin: 1vw 0 0 0;
+}
+
+p.exclusive-g-play {
+    font-size: min(2vw, 12px);
+    margin: 2vw 0 0 0;
+}
+
+p.footer-text {
+    font-family: 'Space Mono', monospace;
+    font-size: min(4vw, 16px);
+    margin: 0 0 0 0;
+}
