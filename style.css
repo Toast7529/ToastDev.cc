@@ -87,7 +87,7 @@ html {
 .project img {
     border: 2px #ffffff solid;
     border-radius: 5px;
-    height: max(10vw, 10rem);
+    width: max(15vh, 15rem);
     margin: 2vh;
     box-shadow: 0 0 10px #7c0affde;
 }
