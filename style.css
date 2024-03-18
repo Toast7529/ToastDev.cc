@@ -40,8 +40,7 @@ html {
 }
 
 .navbar {
-    /* background-color: #363636d8; */
-    background-color: #00000007;
+    background-image: linear-gradient(#ffffff00, #80808024);
     /* width: 100%; */
     border-bottom: 1px #ffffff solid;
     padding: 10px;
